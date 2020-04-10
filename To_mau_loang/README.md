@@ -112,18 +112,18 @@ A.3. Các thuật toán tô màu
 
 ### a) Thuật toán Tô màu hình thang quét theo Ox 
 
-	Bước 1: X = x1 
+	Bước 1: X = XA 
 
 	Bước 2: Tính tọa độ Ym1 và Ym2: 
 
-	Xm1 = ((YD-YA)*(X-XA)/(XD-XA))+YA 
+	Ym1 = ((YD-YA)*(X-XA)/(XD-XA))+YA 
 
-	Xm2 = ((YC-YB)*(X-XB)/(XC-XD))+YB 
+	Ym2 = ((YC-YB)*(X-XB)/(XC-XD))+YB 
 
 	Bước 3: Nối 2 điểm (X,Ym1) và (X,Ym2) bằng màu tô 
 	Bước 4: X += 1
 
-	Bước 5: Nếu X<X2 : Bước 2. 
+	Bước 5: Nếu X<XD : Bước 2. 
 
 	Bước 6: Kết thúc. 
 ### b)
