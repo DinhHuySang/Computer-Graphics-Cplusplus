@@ -1,3 +1,6 @@
+Teacher : Mai Hong
+Learner : Dinh Huy Sang
+
 # Đề bài
 A.3. Các thuật toán tô màu 
 
