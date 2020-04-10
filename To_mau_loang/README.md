@@ -121,10 +121,11 @@ A.3. Các thuật toán tô màu
 	Xm2 = ((YC-YB)*(X-XB)/(XC-XD))+YB 
 
 	Bước 3: Nối 2 điểm (X,Ym1) và (X,Ym2) bằng màu tô 
+	Bước 4: X += 1
 
-	Bước 4: Nếu X<X2 : Bước 2. 
+	Bước 5: Nếu X<X2 : Bước 2. 
 
-	Bước 5: Kết thúc. 
+	Bước 6: Kết thúc. 
 ### b)
 	void quet_hinh_thang_theo_Ox(int xa,int ya,int xc,int yc,int xd,int yd,int xe,int ye)
 	{
