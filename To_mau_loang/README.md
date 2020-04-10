@@ -90,8 +90,21 @@ A.3. Các thuật toán tô màu
 	Bước 5: Nếu Y<YD: Bước 2 
 
 	Bước 6: Kết thúc. 
-
-### B,c) Code 
+### b)
+	void quet_hinh_thang_theo_Oy(int xa,int ya,int xb,int yb,int xc,int yc,int xd,int yd)
+	{
+	    int y1 = yd;
+	    int y2 = ya;
+	    int y = y1;
+	    while(y<=y2)
+	    {
+		int  xm1 = (((xa-xd)*(y - ya))/(ya-yd)) + xa;
+		int  xm2 = (((xc - xb)*(y-yb))/(yc-yb))  + xb;
+		line(xm1,y,xm2,y);
+		y++;
+	    }
+	}
+### c) Code 
 
  
 
@@ -112,8 +125,20 @@ A.3. Các thuật toán tô màu
 	Bước 4: Nếu X<X2 : Bước 2. 
 
 	Bước 5: Kết thúc. 
-
-### b) Code 
+### b)
+	void quet_hinh_thang_theo_Ox(int xa,int ya,int xc,int yc,int xd,int yd,int xe,int ye)
+	{
+	    int x = xa;
+	    int x2 = xd;
+	    while(x<=x2)
+	    {
+		int ym1 = (((ye-ya)*(x-xa))/(xe-xa))+ya;
+		int ym2 = (((yd-yc)*(x-xc))/(xd-xc)) + yc;
+		line(x,ym1,x,ym2);
+		x++;
+	    }
+	}
+### c) Code 
 
  
 
