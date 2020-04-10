@@ -49,7 +49,7 @@ A.3. Các thuật toán tô màu
   
 
 # Giải 
-**_Code trong thư mục Code_to_mau_loang_**
+**_Code trong thư mục Code_to_mau_loang_** [https://github.com/SangDinhHuy/Computer-Graphics-C-/tree/master/To_mau_loang/Code_To_mau_loang]
 
 ## Bai 1. 
 
