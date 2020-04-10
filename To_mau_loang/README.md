@@ -75,7 +75,7 @@ A.3. Các thuật toán tô màu
 
 	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD 
 
-	Bước 1: Y=YA 
+	Bước 1: Y=YD 
 
 	Bước 2: Tính Xm1 và Xm2: 
 
@@ -87,7 +87,7 @@ A.3. Các thuật toán tô màu
 
 	Bước 4: Y = Y+1 
 
-	Bước 5: Nếu Y<YD: Bước 2 
+	Bước 5: Nếu Y<YA: Bước 2 
 
 	Bước 6: Kết thúc. 
 ### b)
