@@ -6,9 +6,9 @@ A.3. Các thuật toán tô màu
 
 ## Bài 1. 
 
-	a) Trình bày thuật toán tô màu loang về 4 hướng biết màu biên: mb, màu tô: mt, điểm nằm 		trong hình cần tô (x, y). 
+	a) Trình bày thuật toán tô màu loang về 4 hướng biết màu biên: mb, màu tô: mt, điểm nằm trong hình cần tô (x, y). 
 
-	b) Viết hàm tô màu loang cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình 		tô màu loang cho hình chữ nhật có đường chéo chính là (100, 50), (200, 100), màu biên là 		mầu đỏ, màu tô là màu xanh lá cây. 
+	b) Viết hàm tô màu loang cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình tô màu loang cho hình chữ nhật có đường chéo chính là (100, 50), (200, 100), màu biên là mầu đỏ, màu tô là màu xanh lá cây. 
 
 	c) Chạy chương trình ý b) trên máy tính. 
 
@@ -16,7 +16,7 @@ A.3. Các thuật toán tô màu
 
 	a) Trình bày thuật toán tô màu hình thang cơ bản như hình vẽ 
 
-	b) Viết hàm tô màu hình thang cơ bản cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết 		chương trình tô màu cho đa giác ABCDE với A(100, 150), B(200, 50), C(350, 150), D(300, 	250), E(150, 250). 
+	b) Viết hàm tô màu hình thang cơ bản cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình tô màu cho đa giác ABCDE với A(100, 150), B(200, 50), C(350, 150), D(300, 250), E(150, 250). 
 
 	c) Chạy chương trình ý b) trên máy tính. 
 
@@ -24,7 +24,7 @@ A.3. Các thuật toán tô màu
 
 	a) Trình bày thuật toán tô màu hình thang cơ bản như hình vẽ: 
 
-	b) Viết hàm tô màu hình thang cơ bản cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết 		chương trình tô màu cho đa giác ABCDE với A(100, 350), B(20, 250), C(100, 50), D(300, 		150), 	E(300, 300). 
+	b) Viết hàm tô màu hình thang cơ bản cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình tô màu cho đa giác ABCDE với A(100, 350), B(20, 250), C(100, 50), D(300,150), E(300, 300). 
 
 	c) Chạy chương trình ý b) trên máy tính. 
 
@@ -32,7 +32,7 @@ A.3. Các thuật toán tô màu
 
 	a) Trình bày thuật toán tô màu biên cho miền lồi theo trục Oy biết miền cần tô có màu 	biên: mb, màu tô: mt, điểm nằm trong hình cần tô (x, y). 
 
-	b) Viết hàm tô màu biên cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình 		tô màu cho hình tròn tâm A(300, 200), bán kính R=100 với màu biên là màu xanh da trời, màu 		tô là màu đỏ. 
+	b) Viết hàm tô màu biên cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình tô màu cho hình tròn tâm A(300, 200), bán kính R=100 với màu biên là màu xanh da trời, màu tô là màu đỏ. 
 
 	c) Chạy chương trình ý b) trên máy tính. 
 
@@ -40,7 +40,7 @@ A.3. Các thuật toán tô màu
 
 	a) Trình bày thuật toán tô màu biên cho miền lồi theo trục Ox biết miền cần tô có màu 	biên: mb, màu tô: mt, điểm nằm trong hình cần tô (x, y). 
 
-	b) Viết hàm tô màu biên cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình 		tô màu cho hình tròn tâm A(300, 200), bán kính R=100 với màu biên là màu xanh da trời, màu 		tô là màu đỏ. 
+	b) Viết hàm tô màu biên cho thuật toán trên bằng ngôn ngữ C++. Áp dụng viết chương trình tô màu cho hình tròn tâm A(300, 200), bán kính R=100 với màu biên là màu xanh da trời, màu tô là màu đỏ. 
 
 	c) Chạy chương trình ý b) trên máy tính 
 
@@ -61,7 +61,7 @@ A.3. Các thuật toán tô màu
 
 	-Bước 2: Xác định một điểm (x,y) là điểm bắt đầu tô bên trong vùng cần tô. 
 
-	-Bước 3: Nếu (x,y) khác màu biên và màu nền thì ta tô các điểm (x,y+1), (x,y-1), 		(x+1,y), (x-1,y) - điểm lân cận 
+	-Bước 3: Nếu (x,y) khác màu biên và màu nền thì ta tô các điểm (x,y+1), (x,y-1), (x+1,y), (x-1,y) - điểm lân cận 
 
 	-Lặp lại bước 3 cho tới khi kết thúc. 
 
@@ -75,7 +75,7 @@ A.3. Các thuật toán tô màu
 
 	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD 
 
-	Bước 1: Y=YA 
+	Bước 1: Y=YD 
 
 	Bước 2: Tính Xm1 và Xm2: 
 
@@ -87,11 +87,24 @@ A.3. Các thuật toán tô màu
 
 	Bước 4: Y = Y+1 
 
-	Bước 5: Nếu Y<YD: Bước 2 
+	Bước 5: Nếu Y<YA: Bước 2 
 
 	Bước 6: Kết thúc. 
-
-### B,c) Code 
+### b)
+	void quet_hinh_thang_theo_Oy(int xa,int ya,int xb,int yb,int xc,int yc,int xd,int yd)
+	{
+	    int y1 = yd;
+	    int y2 = ya;
+	    int y = y1;
+	    while(y<=y2)
+	    {
+		int  xm1 = (((xa-xd)*(y - ya))/(ya-yd)) + xa;
+		int  xm2 = (((xc - xb)*(y-yb))/(yc-yb))  + xb;
+		line(xm1,y,xm2,y);
+		y++;
+	    }
+	}
+### c) Code 
 
  
 
@@ -99,21 +112,34 @@ A.3. Các thuật toán tô màu
 
 ### a) Thuật toán Tô màu hình thang quét theo Ox 
 
-	Bước 1: X = x1 
+	Bước 1: X = XA 
 
 	Bước 2: Tính tọa độ Ym1 và Ym2: 
 
-	Xm1 = ((YD-YA)*(X-XA)/(XD-XA))+YA 
+	Ym1 = ((YD-YA)*(X-XA)/(XD-XA))+YA 
 
-	Xm2 = ((YC-YB)*(X-XB)/(XC-XD))+YB 
+	Ym2 = ((YC-YB)*(X-XB)/(XC-XD))+YB 
 
 	Bước 3: Nối 2 điểm (X,Ym1) và (X,Ym2) bằng màu tô 
+	Bước 4: X += 1
 
-	Bước 4: Nếu X<X2 : Bước 2. 
+	Bước 5: Nếu X<XD : Bước 2. 
 
-	Bước 5: Kết thúc. 
-
-### b) Code 
+	Bước 6: Kết thúc. 
+### b)
+	void quet_hinh_thang_theo_Ox(int xa,int ya,int xc,int yc,int xd,int yd,int xe,int ye)
+	{
+	    int x = xa;
+	    int x2 = xd;
+	    while(x<=x2)
+	    {
+		int ym1 = (((ye-ya)*(x-xa))/(xe-xa))+ya;
+		int ym2 = (((yd-yc)*(x-xc))/(xd-xc)) + yc;
+		line(x,ym1,x,ym2);
+		x++;
+	    }
+	}
+### c) Code 
 
  
 
