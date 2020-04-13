@@ -1,88 +1,31 @@
+#include <graphics.h>
 #include <conio.h>
 #include <iostream>
-#include <graphics.h>
-
 using namespace std;
 
-struct ToaDo
-{
-    int x,y;
-};
 
-void nhapDaGiac(ToaDo p[], int v)
-{
-    int i;
-    for(i=0;i<v; i++){
-        cout<<"\nNhap toa do dinh "<<i+1<<" : ";
-        cin>>p[i].x >> p[i].y;
+void Quet_hinh_thang_theo_Ox(int xa, int ya, int xb, int yb, int xc, int yc, int xd, int yd, int mauto){
 
-    }
-    p[i].x=p[0].x;
-    p[i].y=p[0].y;
-}
+    int x= xd;
+    while(x >= xa){
+        int ym2 = (yd-ya)*(x-xd)/(xd-xa) + yd;
+        int ym1 = (yc-yb)*(x-xc)/(xc-xb) + yc;
 
-void veDaGiac(ToaDo p[], int v)
-{
-    for(int i=0;i<v;i++)
-        line(p[i].x,p[i].y,p[i+1].x,p[i+1].y);
-}
-
-void ScanLine(ToaDo p[], int v)
-{
-    int xmin,xmax,ymin,ymax,c,mang[50];
-    xmin=xmax=p[0].x;
-    ymin=ymax=p[0].y;
-    for(int i=0;i<v;i++){
-        if(xmin>p[i].x) xmin=p[i].x;
-        if(xmax<p[i].x) xmax=p[i].x;
-        if(ymin>p[i].y) ymin=p[i].y;
-        if(ymax<p[i].y) ymax=p[i].y;
-    }
-    float y;
-    y=ymin+0.01;
-        while(y<=ymax){
-            int x,x1,x2,y1,y2,tg;
-            c=0;    //chỉ số của mảng phần tử
-            for(int i=0;i<v;i++){ //xét trên tất cả các đỉnh
-                //xét 2 đỉnh liền kề nhau
-                x1=p[i].x;
-                y1=p[i].y;
-                x2=p[i+1].x;
-                y2=p[i+1].y;
-                if(y2<y1){ //sắp xếp lại y của 2 điểm liên tiếp
-                    tg=x1;x1=x2;x2=tg;
-                    tg=y1;y1=y2;y2=tg;
-                }
-                //mảng giao điểm
-                if(y<=y2&&y>=y1){
-                    if(y1==y2)  x=x1;
-                    else{
-                        x=((y-y1)*(x2-x1))/(y2-y1); //hệ số góc
-                        x+=x1;
-                    }
-                    if(x<=xmax && x>=xmin)
-                        mang[c++]=x;
-            }
-
-            for(int i=0; i<c;i+=2){
-                    line(mang[i],y,mang[i+1],y);
-            }
-            y++;
+        for(int i=ym1; i<=ym2; i++){
+            putpixel(x,i, mauto);
         }
+        x--;
+        cout << ym2 << ' ' << ym1 << endl;
     }
 }
-int main()
-{
-    int cl,v;
-    do{
-        cout<<"\n Nhap so dinh da giac:"; cin>>v;
-    }while(v<3);
-    ToaDo p[v];
-    nhapDaGiac(p,v);
-    cout<<"\nChon mau (0-15) : "; cin>>cl;
-    initwindow(500,600);
-    veDaGiac(p,v);
-    setcolor(cl);
-    ScanLine(p, v);
+int main(){
+    int mauto = 3;
+    initwindow(600,600);
+
+    Quet_hinh_thang_theo_Ox(20, 250, 20, 250, 100, 50, 100, 350, mauto);// BBCA
+    Quet_hinh_thang_theo_Ox(100, 350, 100, 50, 300,150, 300,150,mauto);//ACDD
+    Quet_hinh_thang_theo_Ox(100, 350, 100, 350, 300,150, 300, 300, mauto);//AADC
+
     getch();
-}
+    return 0;
+ }
