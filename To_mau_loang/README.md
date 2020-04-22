@@ -73,9 +73,9 @@ A.3. Các thuật toán tô màu
 
 <<<<<<< HEAD
 
-### a) Thuật toán Tô màu hình thang q theo Oy 
+### a) Thuật toán Tô màu hình thang quét theo Oy 
 
-	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD. AB là đáy lớn 
+	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD. DC là đáy lớn 
 
 ![Hinh_thang_dung](img/HinhThangDung.png)
 
@@ -115,6 +115,7 @@ A.3. Các thuật toán tô màu
 ## Bài 3: 
 
 ### a) Thuật toán Tô màu hình thang quét theo Ox 
+	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD. DC là đáy lớn
 
 ![Hinh_thang_nam](img/HinhThangNam.png)
 
