@@ -77,7 +77,7 @@ A.3. Các thuật toán tô màu
 
 	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD. AB là đáy lớn 
 
-	![Hinh_thang_dung](img/HinhThangDung.png)
+![Hinh_thang_dung](img/HinhThangDung.png)
 
 	Bước 1: Y=YD 
 
@@ -116,7 +116,7 @@ A.3. Các thuật toán tô màu
 
 ### a) Thuật toán Tô màu hình thang quét theo Ox 
 
-	![Hinh_thang_nam](img/HinhThangNam.png)
+![Hinh_thang_nam](img/HinhThangNam.png)
 
 	Bước 1: X = XA 
 
