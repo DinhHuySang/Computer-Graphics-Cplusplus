@@ -71,8 +71,8 @@ A.3. Các thuật toán tô màu
 
 ## Bai 2. 
 
-### a) Thuật toán Tô màu hình thang cơ bản theo Oy 
-
+### a) Thuật toán Tô màu hình thang quét theo Oy 
+	![Hinh_thang_dung](img/HinhThangDung.png)
 	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD 
 
 	Bước 1: Y=YD 
@@ -111,7 +111,7 @@ A.3. Các thuật toán tô màu
 ## Bài 3: 
 
 ### a) Thuật toán Tô màu hình thang quét theo Ox 
-
+	![Hinh_thang_nam](img/HinhThangNam.png)
 	Bước 1: X = XA 
 
 	Bước 2: Tính tọa độ Ym1 và Ym2: 
