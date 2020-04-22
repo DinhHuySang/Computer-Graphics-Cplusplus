@@ -71,7 +71,7 @@ A.3. Các thuật toán tô màu
 
 ## Bai 2. 
 
-### a) Thuật toán Tô màu hình thang cơ bản theo Oy 
+### a) Thuật toán Tô màu hình thang q theo Oy 
 
 	Ta có 4 điểm A,B,C,D gồm 2 đáy AB và CD 
 
